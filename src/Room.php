@@ -1,5 +1,7 @@
 <?php
 
+namespace Nfq\Akademija;
+
 class Room implements ReservableInterface
 {
     private $roomType;

@@ -2,9 +2,7 @@
     "name": "adomas/nfq_php2",
     "description": "NFQ php namu darbai 2",
     "autoload": {
-        "psr-4": {
-            "": "src/"
-        }
+        "psr-4": {"Nfq\\Akademija\\": "src/"}
     },
     "type": "project",
     "license": "MIT",

@@ -1,5 +1,7 @@
 <?php
 
+namespace Nfq\Akademija;
+
 class SingleRoom extends Room {
 
     private $roomNumber;

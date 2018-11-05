@@ -1,6 +1,7 @@
 <?php
 
-require_once 'vendor/autoload.php';
+namespace Nfq\Akademija;
+require_once __DIR__ . '/vendor/autoload.php';
 
 $room = new SingleRoom(1480, 99);
 $guest = new Guest('Vardenis', 'Pavardenis');

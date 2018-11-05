@@ -1,5 +1,7 @@
 <?php
 
+namespace Nfq\Akademija;
+
 class Guest
 {
 

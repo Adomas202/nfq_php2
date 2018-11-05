@@ -1,12 +1,15 @@
 <?php
 
-class Reservation {
+namespace Nfq\Akademija;
+
+class Reservation
+{
 
     private $startDate;
     private $endDate;
     private $guest;
 
-    public function __construct(DateTime $startDate, DateTime $endDate, Guest $guest)
+    public function __construct(\DateTime $startDate, \DateTime $endDate, Guest $guest)
     {
         $this->startDate = $startDate;
         $this->endDate = $endDate;

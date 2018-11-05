@@ -1,6 +1,9 @@
 <?php
 
-class Bedroom extends Room {
+namespace Nfq\Akademija;
+
+class Bedroom extends Room
+{
 
     public function __construct(Int $roomNumber, Int $price)
     {

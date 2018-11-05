@@ -1,6 +1,9 @@
 <?php
 
-class BookingManager {
+namespace Nfq\Akademija;
+
+class BookingManager
+{
 
     public static function bookRoom(Room $room, Reservation $reservation)
     {
