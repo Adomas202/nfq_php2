@@ -1,0 +1,19 @@
+{
+    "name": "adomas/nfq_php2",
+    "description": "NFQ php namu darbai 2",
+    "autoload": {
+        "psr-4": {
+            "": "src/"
+        }
+    },
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Adomas Poleninas",
+            "email": "adomas.poleninas@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {}
+}
